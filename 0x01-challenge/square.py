@@ -9,6 +9,7 @@ class Square:
 
     def __init__(self, *args, **kwargs):
         """ Constructor """
+        self.width = 0
         for key, value in kwargs.items():
             setattr(self, key, value)
 
